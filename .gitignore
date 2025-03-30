@@ -171,3 +171,9 @@ flagged/
 # Docs
 .cache
 mkdocs-material-insiders
+
+# Datasets
+data
+
+# model state-dict
+*.pth
