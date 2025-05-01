@@ -1,0 +1,18 @@
+dataset:
+    root_dir: D:/VScodeProjects/pytorch-deep-learning/data/pizza_steak_sushi
+    train_dir: D:/VScodeProjects/pytorch-deep-learning/data/pizza_steak_sushi/train
+    test_dir: D:/VScodeProjects/pytorch-deep-learning/data/pizza_steak_sushi/test
+
+train:
+    batch_size: 64
+    num_epochs: 20
+
+optimizer:
+    learning_rate: 0.003
+
+model:
+    hidden_unit: 10
+
+work_dir:
+    dir: D:/VScodeProjects/pytorch-deep-learning/extras/exercises/going_modular/work_dir
+    checkpoint_dir: checkpoints
